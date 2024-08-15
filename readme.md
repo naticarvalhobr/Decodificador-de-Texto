@@ -10,8 +10,8 @@
   <p>JavaScript</p>
 </div>
 
-# Time
+## Time
 <p>Natália Barros</p>
 
-# Link Vercel 
+## Link Vercel 
 <p>https://decodificador-de-texto-taupe.vercel.app/</p>
