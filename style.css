@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap');
+
+*{
+    background-color: #E5E5E5;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo_Alura {
+    margin-left: 1%;
+    padding-top: 2%;
+    width: 7%;
+}
+
+.apresentacao {
+    display: flex;
+    margin-bottom: 5%;
+    margin-left: 6%;
+}
+
+.apresentacao_texto_area {
+    border: none;
+    color: #0A3871;
+    margin-top: 7%;
+    text-transform: lowercase;
+}
+
+::placeholder{
+    color: #0A3871;
+}
+
+.apresentacao_texto_area:focus{
+    outline: none;
+}
+
+.apresentacao_texto_informacao_h6{
+    color: #495057;
+    font-size: 18px;
+}
+
+.apresentacao_texto_botoes{
+    display: flex;
+    margin-top: 18px;
+}
+
+.apresentacao_texto_botoes_encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.apresentacao_texto_botoes_desencriptar{
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-left: 30px;
+}
+
+.apresentacao_texto_resultado {
+    background-color: white;
+    background-image: url(./assets/boneco_texto.svg);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 5%;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    /*position: fixed;*/
+}
+
+.apresentacao_texto_resultado:focus{
+    outline: none;
+}
+
+.apresentacao_texto_botoes_copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 502px;
+    position: absolute;
+    width: 336px;
+}
